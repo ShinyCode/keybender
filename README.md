@@ -1,7 +1,7 @@
 # Keybender
 **Keybender** takes your computer and turns it into an easy-to-use, full-fledged performance studio. At the most basic level, Keybender allows you to use any computer keyboard as a MIDI controller, replacing the need for any often-expensive additional hardware. From here, **Keybender** adds three key features:
 
-1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 50 notes, this is perfect for both solo performance and accompaniment.
+1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 51 notes, this is perfect for both solo performance and accompaniment.
 2. **Track recording.** This feature allows you to record and save MIDI tracks for later use. The track length, voice, and quantization are all customizable, allowing for great control over the recorded track.
 3. **Live song playback.** This feature allows you to assemble a song on the fly by loading and queueing tracks into the 14 available playback channels. Playback can be used in tandem with live performance and recording, giving you the freedom to improvise to your heart's content.
 
@@ -16,6 +16,7 @@
   - [Recording a Track](#id-recording)
   - [Binding Tracks to Channels](#id-binding-tracks)
   - [Playing Back Your Tracks](#id-playing-tracks)
+  - [Saving and Loading Your Workspace](#id-saving-loading)
 - [Gallery](#id-gallery)
 - [Licenses & Dependencies](#id-licenses)
 
@@ -103,12 +104,24 @@ Press the "P" button in the associated channel. The indicator square to the righ
 **To queue a channel to stop playing:**  
 Press the "S" button in the associated channel. This will stop the track after it finishes playing through once.
 
-**To force a channel to stop playing:** 
+**To force a channel to stop playing:**  
 Press the "SN" button in the associated channel. This will stop the track instantly, without waiting for it to finish playing.
+
+### <div id='id-saving-loading'/>Saving and Loading Your Workspace
+In **Keybender**, your collection of recorded tracks, channel settings, and playback settings comprise your workspace. This can be saved to a file and loaded so you can resume your work at a later time. Note that saving and loading uses *cPickle*, so only load workspaces from trusted sources.
+
+**To save your current workspace**  
+Up top, click "File", and then "Save workspace". The first time you save a workspace, you will be prompted to give it a name and specify its save location.
+
+**To save your current workspace under a different name**  
+Up top, click "File", and then "Save workspace as...". You will be prompted to give the workspace a new name and specify its save location.
+
+**To load a workspace**  
+Up top, click "File", and then "Load workspace...". You will be prompted to choose the workspace to load into **Keybender**.
 
 ## <div id='id-gallery'/>Gallery
 
 ## <div id='id-licenses'/>Licenses & Dependencies
-**Keybender** is licensed under the MIT license.  
-*wxPython* is used as a GUI toolkit and *Mido* is used for sending MIDI messages and working with ports. These do not need to be installed by the user.  
-*ASIO4ALL*, *loopMIDI*, and *SyFonOne* are used to achieve low latency. These are not included and must be installed by the user.
+ * **Keybender** is licensed under the MIT license.  
+ * *wxPython* is used as a GUI toolkit and *Mido* is used for sending MIDI messages and working with ports. These do not need to be installed by the user.  
+ * *ASIO4ALL*, *loopMIDI*, and *SyFonOne* are used to achieve low latency. These are not included and must be installed by the user.
