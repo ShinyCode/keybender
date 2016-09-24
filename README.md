@@ -1,4 +1,4 @@
-# Keybender
+![Keybender](/res/keybender_banner.png)
 **Keybender** takes your computer and turns it into an easy-to-use, full-fledged performance studio. At the most basic level, Keybender allows you to use any computer keyboard as a MIDI controller, replacing the need for any often-expensive additional hardware. From here, **Keybender** adds three key features:
 
 1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 51 notes, this is perfect for both solo performance and accompaniment.
@@ -28,8 +28,10 @@ Running **Keybender** with the minimal setup allows you to explore **Keybender**
 
 **To run Keybender using the minimal setup:**
 
-1. On Windows, run the **Keybender** executable (*keybender.exe*).
-2. Select a port from the dropdown menu on the right hand side of the application.
+1. On Windows, run the **Keybender** executable (*keybender.exe*).  
+![Keybender icon](/res/exe_icon.png)
+2. Select a port from the dropdown menu on the right hand side of the application.  
+![Selecting a port](/res/min_select_port.png)
 3. In order to play notes using the keyboard, don't forget to give focus to the Piano Keyboard Display.
 
 ### <div id='id-setup-full'/>Full Setup (Low Latency, Windows only)
@@ -43,10 +45,14 @@ Running **Keybender** with the full setup requires more third-party software, bu
 
 **Afterwards, Keybender can be started as so:**
 
-1. Start *loopMIDI* if it is not already running. If there is no virtual MIDI port listed, add one using the (+) button at the bottom. [IMG]
-2. Start *SyFonOne*. Under "Options", select the *loopMIDI* port you created. Under the ASIO settings, check "Use ASIO", and select *ASIO4ALL v2*.
-3. In the main window of *SyFonOne*, click "Play". This will activate *ASIO4ALL*. Note that while "Play" is selected, no other applications will have access to the computer's sound card.
-4. Run the **Keybender** executable (*keybender.exe*). Select the *loopMIDI* port from the dropdown menu on the right hand side of the application.
+1. Start *loopMIDI* if it is not already running. If there is no virtual MIDI port listed, add one using the (+) button at the bottom.  
+![Adding a virtual MIDI port in loopMIDI](/res/loopmidi_screen.png)
+2. Start *SyFonOne*. Under "Options", select the *loopMIDI* port you created. Under the ASIO settings, check "Use ASIO", and select *ASIO4ALL v2*.  
+![Configuring SyFonOne](/res/syfonone_screen.png)
+3. In the main window of *SyFonOne*, click "Play". This will activate *ASIO4ALL*. Note that while "Play" is selected, no other applications will have access to the computer's sound card.  
+![Activating ASIO4ALL](/res/syfonone_play.png)
+4. Run the **Keybender** executable (*keybender.exe*). Select the *loopMIDI* port from the dropdown menu on the right hand side of the application.  
+![Selecting a port](/res/full_select_port.png)
 5. In order to play notes using the keyboard, don't forget to give focus to the Piano Keyboard Display. The latency should be barely noticeable now.
 
 ### <div id='id-keyboard-config'/>Recommended Keyboard Configuration
@@ -55,8 +61,8 @@ While only a single keyboard is needed to run **Keybender**, very often, keyboar
 ## <div id='id-features'/>Features & Controls
 
 ### <div id='id-keyboard-layout'/>Keyboard Note Layout
-The key configuration used by **Keybender** is as shown in the following diagram:
-[DIAGRAM]  
+The key configuration used by **Keybender** is as shown in the following diagram:  
+![Keyboard layout](/res/keyboard_layout.png)
 Here, notes are expressed in terms of the number of semitones to the datum note (marked in blue), which is set by default to middle C (note #60). Thus, **Keybender** can play notes ranging from datum -24 to datum +26. Sustain is accomplished by using the spacebar, similar to how a piano's sustain pedal is operated. While the numeric keypad is a handy shortcut for changing the key of the instrument, the datum note can still be set manually using the "Edit" menu up top.
 
 ### <div id='id-playing-live'/>Playing Live
