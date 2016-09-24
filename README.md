@@ -1,7 +1,7 @@
 # Keybender
 **Keybender** takes your computer and turns it into an easy-to-use, full-fledged performance studio. At the most basic level, Keybender allows you to use any computer keyboard as a MIDI controller, replacing the need for any often-expensive additional hardware. From here, **Keybender** adds three key features:
 
-1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 4 octaves, this is perfect for both solo performance and accompaniment.
+1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 50 notes, this is perfect for both solo performance and accompaniment.
 2. **Track recording.** This feature allows you to record and save MIDI tracks for later use. The track length, voice, and quantization are all customizable, allowing for great control over the recorded track.
 3. **Live song playback.** This feature allows you to assemble a song on the fly by loading and queueing tracks into the 14 available playback channels. Playback can be used in tandem with live performance and recording, giving you the freedom to improvise to your heart's content.
 
@@ -56,7 +56,7 @@ While only a single keyboard is needed to run **Keybender**, very often, keyboar
 ### <div id='id-keyboard-layout'/>Keyboard Note Layout
 The key configuration used by **Keybender** is as shown in the following diagram:
 [DIAGRAM]  
-Here, notes are expressed in terms of the number of semitones to the datum note (marked in blue), which is set by default to middle C (note #60). Thus, **Keybender** can play notes ranging from datum - 24 to datum + 24. Sustain is accomplished by using the spacebar, similar to how a piano's sustain pedal is operated. While the numeric keypad is a handy shortcut for changing the key of the instrument, the datum note can still be set manually using the "Edit" menu up top.
+Here, notes are expressed in terms of the number of semitones to the datum note (marked in blue), which is set by default to middle C (note #60). Thus, **Keybender** can play notes ranging from datum -24 to datum +26. Sustain is accomplished by using the spacebar, similar to how a piano's sustain pedal is operated. While the numeric keypad is a handy shortcut for changing the key of the instrument, the datum note can still be set manually using the "Edit" menu up top.
 
 ### <div id='id-playing-live'/>Playing Live
 
