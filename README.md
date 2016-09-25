@@ -1,16 +1,14 @@
 ![Keybender](/res/keybender_banner.png)  
-**Keybender** takes your computer and turns it into an easy-to-use, full-fledged performance studio. At the most basic level, Keybender allows you to use any computer keyboard as a MIDI controller, replacing the need for any often-expensive additional hardware. **Keybender** provides three key features:  
-
-1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 51 notes, this is perfect for both solo performance and accompaniment.
-2. **Track recording.** This feature allows you to record and save MIDI tracks for later use. The track length, voice, and quantization are all customizable, allowing for great control over the recorded track.
-3. **Live song playback.** This feature allows you to assemble a song on the fly by loading and queueing tracks into the 14 available playback channels. Playback can be used in tandem with live performance and recording, giving you the freedom to improvise to your heart's content.
+**Keybender** takes your computer and turns it into an easy-to-use, full-fledged music studio. Perform a song live, record your own tracks, and assemble crazy mashups.
+![Keybender UI](/res/splash.png)
 
 ## Table of Contents
+- [Features](#id-features)
 - [Setup](#id-setup)
   - [Minimal Setup (High Latency)](#id-setup-min)
   - [Full Setup (Low Latency, Windows only)](#id-setup-full)
   - [Recommended Keyboard Configuration](#id-keyboard-config)
-- [Features & Controls](#id-features)
+- [Usage](#id-usage)
   - [Keyboard Note Layout](#id-keyboard-layout)
   - [Playing Live](#id-playing-live)
   - [Recording a Track](#id-recording)
@@ -19,6 +17,13 @@
   - [Saving and Loading Your Workspace](#id-saving-loading)
 - [Gallery](#id-gallery)
 - [Licenses & Dependencies](#id-licenses)
+
+## <div id='id-features'/>Features
+At the most basic level, **Keybender** allows you to use any computer keyboard as a MIDI controller, replacing the need for any often-expensive additional hardware. On top of this, **Keybender** provides three key features:
+
+1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 51 notes, this is perfect for both solo performance and accompaniment.
+2. **Track recording.** This feature allows you to record and save MIDI tracks for later use. The track length, voice, and quantization are all customizable, allowing for great control over the recorded track.
+3. **Live song playback.** This feature allows you to assemble a song on the fly by loading and queueing tracks into the 14 available playback channels. Playback can be used in tandem with live performance and recording, giving you the freedom to improvise to your heart's content.
 
 ## <div id='id-setup'/>Setup
 The following sections detail how to set up Keybender on your system, as well as any 3rd-party software needed to boost performance. As of current, **Keybender** has only been tested on Microsoft Windows.
@@ -58,7 +63,7 @@ Running **Keybender** with the full setup requires more third-party software, bu
 ### <div id='id-keyboard-config'/>Recommended Keyboard Configuration
 While only a single keyboard is needed to run **Keybender**, very often, keyboards do not have n-key rollover. This means that they can only register a certain number of simultaneous keypresses. This issue is further compounded by the fact that the USB interface only allows a maximum of 6 non-modifier keys to be pressed simultaneously. In addition, having only a single keyboard can make fingering complex songs incredibly awkward and difficult. The workaround here is to use two keyboards - one for the left hand, and one for the right hand. It is recommended, although not required, that one of the keyboards have a numeric keypad, as these keys serve as a shortcut for changing the instrument's key.
 
-## <div id='id-features'/>Features & Controls
+## <div id='id-usage'/>Usage
 
 ### <div id='id-keyboard-layout'/>Keyboard Note Layout
 The key configuration used by **Keybender** is as shown in the following diagram:  
