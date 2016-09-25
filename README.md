@@ -134,6 +134,6 @@ Up top, click "File", and then "Load workspace...". You will be prompted to choo
 Video footage of sample performances coming soon!
 
 ## <div id='id-licenses'/>Licenses & Dependencies
- * **Keybender** is licensed under the MIT license.  
+ * **Keybender** is licensed under the [MIT license](LICENSE.md).    
  * *wxPython* is used as a GUI toolkit and *Mido* is used for sending MIDI messages and working with ports. These do not need to be installed by the user.  
  * *ASIO4ALL*, *loopMIDI*, and *SyFonOne* are used to achieve low latency. These are not included and must be installed by the user.
