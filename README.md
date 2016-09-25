@@ -1,5 +1,5 @@
-![Keybender](/res/keybender_banner.png)  
-**Keybender** takes your computer and turns it into an easy-to-use, full-fledged music studio. Perform a song live, record your own tracks, and assemble crazy mashups.
+![Keybender](/res/keybender_banner.png)<br><br>
+**Keybender** takes your computer and turns it into an easy-to-use, full-fledged music studio. Whether you're a beginner or a pro, you can perform a song live, record your own tracks, and even assemble crazy mashups.  <br><br>
 ![Keybender UI](/res/splash.png)
 
 ## Table of Contents
@@ -131,6 +131,7 @@ Up top, click "File", and then "Save workspace as...". You will be prompted to g
 Up top, click "File", and then "Load workspace...". You will be prompted to choose the workspace to load into **Keybender**.
 
 ## <div id='id-gallery'/>Gallery
+Video footage of sample performances coming soon!
 
 ## <div id='id-licenses'/>Licenses & Dependencies
  * **Keybender** is licensed under the MIT license.  
