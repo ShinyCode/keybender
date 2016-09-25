@@ -1,5 +1,5 @@
-![Keybender](/res/keybender_banner.png)
-**Keybender** takes your computer and turns it into an easy-to-use, full-fledged performance studio. At the most basic level, Keybender allows you to use any computer keyboard as a MIDI controller, replacing the need for any often-expensive additional hardware. From here, **Keybender** adds three key features:
+![Keybender](/res/keybender_banner.png)  
+**Keybender** takes your computer and turns it into an easy-to-use, full-fledged performance studio. At the most basic level, Keybender allows you to use any computer keyboard as a MIDI controller, replacing the need for any often-expensive additional hardware. **Keybender** provides three key features:  
 
 1. **Live performance.** This feature is most similar to a traditional instrument, and can be accessed by simply pressing keys on your keyboard. With a full range of 51 notes, this is perfect for both solo performance and accompaniment.
 2. **Track recording.** This feature allows you to record and save MIDI tracks for later use. The track length, voice, and quantization are all customizable, allowing for great control over the recorded track.
